@@ -2,21 +2,22 @@
 
 ## Wiki Bias Research: Deletion Candidates Data Collection
 
-This repository contains a Python script used for data collection in a research project investigating bias in Wikipedia's notability guidelines. The data collected comprises the names of academics whose Wikipedia articles were flagged for deletion.
+This repository is part of a research project investigating bias in Wikipedia's notability guidelines. The data collected comprises the names of academics whose Wikipedia articles were flagged for deletion.
+
+In this repository, we provide the Python script `wikiprojscrapingcode.py`, which was used to scrape data from a specific Wikipedia page: [Wikipedia: WikiProject Deletion sorting/Academics and educators/archive_2](https://en.m.wikipedia.org/wiki/Wikipedia:WikiProject_Deletion_sorting/Academics_and_educators/archive_2). This page serves as an archive of academics and educators whose articles were flagged for deletion.
 
 ## Description of the Code
 
-The `WikiProjScrapingCode.ipynb` script is a web scraping tool that fetches information from a specific Wikipedia page—an archive of academics and educators whose articles were flagged for deletion. It extracts necessary details, including the name of the academic and the corresponding Wikipedia link, processes this data, and stores it in a .csv file named `wikicombo.csv`.
+`wikiprojscrapingcode.py` is a web scraping tool that fetches, processes, and saves relevant details from the targeted Wikipedia page. The output is a .csv file named `wikicombo.csv`, which contains the academic names and their respective Wikipedia links.
 
 ## Repository Contents
 
 This repository contains:
 
-- The `WikiProjScrapingCode.ipynb` Python script, the data collection tool.
-- The `wikicombo.csv` file, the output of the script containing the list of academics and corresponding Wikipedia links.
+- The Python script `wikiprojscrapingcode.py`, used for data scraping.
+- The raw output `wikicombo.csv` file, the exact data sheet used to generate our findings prior to any data cleaning.
 
-These resources are integral to the data collection process of this research project.
+It's noteworthy that the mentioned Wikipedia page continually updates with more "Articles for Deletion" (AfD) discussions over time. The .csv file represents a snapshot of the deletion discussions available from around the summer of 2020, dating back to sometime in 2017, as stated in our research paper. 
 
-## Disclaimer
 
-The script is designed for research purposes, respecting ethical guidelines for web scraping. Please explore the code and data to understand our data collection process. Always consider the terms of service of websites and the potential impact of web scraping activities.
+Please feel free to explore the code and the data output to better understand how the research project collected its data.
