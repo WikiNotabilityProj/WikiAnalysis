@@ -1,6 +1,6 @@
 # WikiDataPull
 
-## Wiki Bias Research: Deletion Candidates Data Collection
+## Wiki Bias Research: Code Used For Raw Data Pull
 
 This repository is part of a research project investigating bias in Wikipedia's notability guidelines. The data collected comprises the names of academics whose Wikipedia articles were flagged for deletion.
 
